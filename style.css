@@ -260,7 +260,7 @@ h2{
 }
 /*checkout*/
 .flextable{
-    margin-left: 10%;
+    margin-left: 15%;
     text-align: left;
     display: inline-flex;
     flex-direction: column;
@@ -295,7 +295,7 @@ h2{
     padding: 2px;
 }
 .flexpay{
-    margin-left: 10%;
+    margin-left: 15%;
     text-align: left;
     display: inline-flex;
     flex-direction: column;
