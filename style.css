@@ -16,6 +16,7 @@ h3 {
     margin-top: 10px;
     margin-bottom: 10px;
     text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 p {
@@ -72,6 +73,7 @@ p {
 .navbar-inverse .navbar-toggle {
     border-color: #f3f1ed;
 
+
 }
 
 .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:focus,.navbar-inverse .navbar-nav>.active>a:hover {
@@ -95,7 +97,11 @@ p {
 
 .navbar-inverse .navbar-nav>li>a:visited {
     color: #000;
+
 }
+
+
+
 
 .navbar-nav {
     display: inline-block;
@@ -157,7 +163,8 @@ ul.kontakt-info li a {
 .hero-unit {
     display: flex;
     height: 300px;
-    background-image: url(cover1.jpg);
+    background-image: url(resources/cover1.jpg);
+    background-image: url(resources/cover1.jpg);
     background-size: cover;
     background-position: center center;
 }
@@ -165,7 +172,11 @@ ul.kontakt-info li a {
 .hero-unit-omoss {
     display: flex;
     height: 300px;
-    background-image: url(cover2.jpg);
+
+    background-image: url(resources/cover2.jpg);
+
+    background-image: url(resources/cover2.jpg);
+
     background-size: cover;
     background-position: center center;
 }
@@ -288,6 +299,7 @@ footer ul li a {
 
 /* ändra nedan för större devices än 768px */
 @media (min-width: 768px) {
+
 
 
     .hero-unit {
@@ -471,6 +483,59 @@ footer ul li a {
     padding: 0.3em;
 
 }
+
 /*checkout end*/
 /*Arman end*/
    
+
+    
+    
+.hero-unit {
+    height: 450px;
+}
+    
+.hero-unit__content {
+    padding: 40px;
+}
+
+
+.hero-unit__content p {
+    max-width: 430px;
+}
+    
+.introduction__content {
+    margin: auto;
+    max-width: 450px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}  
+    
+.articles li {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+    
+.articles .theme {
+    padding: 15px;
+}
+    
+h3 {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    
+h2 {
+    font-size: 20px;
+}    
+    
+p {
+    font-size: 12px;
+}
+    footer ul li a {
+    font-size: 12px;
+}
+    
+
+

@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e0398a9-8f42-4dc9-861b-53b4b0031aa4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/products.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/produkter.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/produkter.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cover1.jpg" afterPath="$PROJECT_DIR$/cover1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer1.jpg" afterPath="$PROJECT_DIR$/footer1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arman.jpg" afterPath="$PROJECT_DIR$/resources/arman.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cover1.jpg" afterPath="$PROJECT_DIR$/resources/cover1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cover2.jpg" afterPath="$PROJECT_DIR$/resources/cover2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/emma.jpg" afterPath="$PROJECT_DIR$/resources/emma.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/footer1.jpg" afterPath="$PROJECT_DIR$/resources/footer1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/footer2.jpg" afterPath="$PROJECT_DIR$/resources/footer2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/footer3.jpg" afterPath="$PROJECT_DIR$/resources/footer3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/janie.jpg" afterPath="$PROJECT_DIR$/resources/janie.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/kassa.png" afterPath="$PROJECT_DIR$/resources/kassa.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout.html" afterPath="$PROJECT_DIR$/checkout.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/omoss.html" afterPath="$PROJECT_DIR$/omoss.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products.html" afterPath="$PROJECT_DIR$/products.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <ignored path="htmlprojekt.iws" />
@@ -32,11 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="checkout.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="checkout.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/checkout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="162" column="46" selection-start-line="162" selection-start-column="46" selection-end-line="162" selection-end-column="46" />
+            <state relative-caret-position="373">
+              <caret line="164" column="23" selection-start-line="164" selection-start-column="23" selection-end-line="164" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -52,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8162">
-              <caret line="371" column="0" selection-start-line="371" selection-start-column="0" selection-end-line="371" selection-end-column="0" />
+            <state relative-caret-position="-9196">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -75,8 +81,8 @@
       <file leaf-file-name="omoss.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/omoss.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="50" column="54" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
+            <state relative-caret-position="-1867">
+              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -95,8 +101,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1342">
-              <caret line="61" column="51" selection-start-line="61" selection-start-column="51" selection-end-line="61" selection-end-column="51" />
+            <state relative-caret-position="-789">
+              <caret line="136" column="66" selection-start-line="136" selection-start-column="66" selection-end-line="136" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -128,12 +134,12 @@
         <option value="$PROJECT_DIR$/._style.css" />
         <option value="$PROJECT_DIR$/produkter.css" />
         <option value="$PROJECT_DIR$/produkter.html" />
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$USER_HOME$/Downloads/update-monday/update-monday/header_footer_mall.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/omoss.html" />
         <option value="$PROJECT_DIR$/products.html" />
         <option value="$PROJECT_DIR$/checkout.html" />
+        <option value="$PROJECT_DIR$/omoss.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
   </component>
@@ -215,6 +221,9 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Arman\Desktop\Frontend\htmlprojekt\resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Arman\Desktop\Frontend\htmlprojekt" />
     </key>
@@ -640,16 +649,16 @@
       <workItem from="1475131859289" duration="11202000" />
       <workItem from="1475170454225" duration="13417000" />
       <workItem from="1475316825996" duration="10891000" />
-      <workItem from="1475564870379" duration="666000" />
+      <workItem from="1475564870379" duration="1998000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65460000" />
+    <option name="totallyTimeSpent" value="66792000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -661,7 +670,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24791667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24791667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -843,17 +852,17 @@
     <entry file="file://$PROJECT_DIR$/._index.html" />
     <entry file="file://$PROJECT_DIR$/._style.css" />
     <entry file="file://$PROJECT_DIR$/../._index.html" />
-    <entry file="file://$PROJECT_DIR$/footer3.jpg">
+    <entry file="file://$PROJECT_DIR$/resources/footer3.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer2.jpg">
+    <entry file="file://$PROJECT_DIR$/resources/footer2.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cover1.jpg">
+    <entry file="file://$PROJECT_DIR$/resources/cover1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -883,7 +892,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer1.jpg">
+    <entry file="file://$PROJECT_DIR$/resources/footer1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -904,34 +913,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8162">
-          <caret line="371" column="0" selection-start-line="371" selection-start-column="0" selection-end-line="371" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/update-monday/update-monday/header_footer_mall.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3366">
           <caret line="153" column="3" selection-start-line="153" selection-start-column="3" selection-end-line="153" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1342">
-          <caret line="61" column="51" selection-start-line="61" selection-start-column="51" selection-end-line="61" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/omoss.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="50" column="54" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -946,8 +931,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/checkout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="162" column="46" selection-start-line="162" selection-start-column="46" selection-end-line="162" selection-end-column="46" />
+        <state relative-caret-position="373">
+          <caret line="164" column="23" selection-start-line="164" selection-start-column="23" selection-end-line="164" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omoss.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1867">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-789">
+          <caret line="136" column="66" selection-start-line="136" selection-start-column="66" selection-end-line="136" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9196">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
           <folding />
         </state>
       </provider>
