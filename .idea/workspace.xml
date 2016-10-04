@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e0398a9-8f42-4dc9-861b-53b4b0031aa4" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arman.jpg" afterPath="$PROJECT_DIR$/resources/arman.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cover1.jpg" afterPath="$PROJECT_DIR$/resources/cover1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cover2.jpg" afterPath="$PROJECT_DIR$/resources/cover2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/emma.jpg" afterPath="$PROJECT_DIR$/resources/emma.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/footer1.jpg" afterPath="$PROJECT_DIR$/resources/footer1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/footer2.jpg" afterPath="$PROJECT_DIR$/resources/footer2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/footer3.jpg" afterPath="$PROJECT_DIR$/resources/footer3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/janie.jpg" afterPath="$PROJECT_DIR$/resources/janie.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kassa.png" afterPath="$PROJECT_DIR$/resources/kassa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/blogg1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/blogg2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/blogg3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogg.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blogg_only.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forum.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forum.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout.html" afterPath="$PROJECT_DIR$/checkout.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/omoss.html" afterPath="$PROJECT_DIR$/omoss.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products.html" afterPath="$PROJECT_DIR$/products.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <ignored path="htmlprojekt.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,7 +46,7 @@
       <file leaf-file-name="products.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/products.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
+            <state relative-caret-position="22">
               <caret line="50" column="54" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
               <folding />
             </state>
@@ -61,8 +56,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9196">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            <state relative-caret-position="286">
+              <caret line="94" column="18" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -81,18 +76,8 @@
       <file leaf-file-name="omoss.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/omoss.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1867">
-              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/update-monday/update-monday/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1694">
-              <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+            <state relative-caret-position="1077">
+              <caret line="106" column="101" selection-start-line="106" selection-start-column="101" selection-end-line="106" selection-end-column="101" />
               <folding />
             </state>
           </provider>
@@ -101,8 +86,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-789">
-              <caret line="136" column="66" selection-start-line="136" selection-start-column="66" selection-end-line="136" selection-end-column="66" />
+            <state relative-caret-position="-330">
+              <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -137,8 +122,8 @@
         <option value="$USER_HOME$/Downloads/update-monday/update-monday/header_footer_mall.html" />
         <option value="$PROJECT_DIR$/products.html" />
         <option value="$PROJECT_DIR$/checkout.html" />
-        <option value="$PROJECT_DIR$/omoss.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/omoss.html" />
         <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
@@ -649,12 +634,12 @@
       <workItem from="1475131859289" duration="11202000" />
       <workItem from="1475170454225" duration="13417000" />
       <workItem from="1475316825996" duration="10891000" />
-      <workItem from="1475564870379" duration="1998000" />
+      <workItem from="1475564870379" duration="3161000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66792000" />
+    <option name="totallyTimeSpent" value="67955000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -905,26 +890,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/update-monday/update-monday/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1694">
-          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/update-monday/update-monday/header_footer_mall.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3366">
           <caret line="153" column="3" selection-start-line="153" selection-start-column="3" selection-end-line="153" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="50" column="54" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -937,26 +906,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/omoss.html">
+    <entry file="file://$USER_HOME$/Downloads/update-monday/update-monday/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1867">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        <state relative-caret-position="505">
+          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="50" column="54" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-789">
-          <caret line="136" column="66" selection-start-line="136" selection-start-column="66" selection-end-line="136" selection-end-column="66" />
+        <state relative-caret-position="-330">
+          <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/omoss.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1077">
+          <caret line="106" column="101" selection-start-line="106" selection-start-column="101" selection-end-line="106" selection-end-column="101" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9196">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        <state relative-caret-position="286">
+          <caret line="94" column="18" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="18" />
           <folding />
         </state>
       </provider>
