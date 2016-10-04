@@ -1,35 +1,55 @@
 body {
-    font-family: 'Verdana', sans-serif;
-    
+    font-family: 'Verdana',sans-serif;
 }
 
-
-body h1, h2, h3 {
-    font-family: 'Railway', sans-serif;
-    
+body h1,h2,h3 {
+    font-family: 'Verdana',sans-serif;
 }
 
 h2 {
-  font-size: 20px; 
+    font-size: 15px;
+    text-transform: uppercase;
 }
 
 h3 {
-  font-size: 15px; 
+    font-size: 12px;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
-
 
 p {
-  font-size: 12px; 
+    font-size: 10px;
 }
+
+
+
+.logo {
+    font-family: 'Pacifico',sans-serif;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+/* navbar style */
 
 .navbar {
     margin-bottom: 0;
 }
 
+
+
 .navbar-toggle {
+    position: relative;
     float: left;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: -495px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding-left: 20px;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
@@ -40,69 +60,62 @@ p {
     background-color: #f3f1ed;
 }
 
-.logo {
-    font-family: 'Pacifico', sans-serif;
-    text-align: center;
-    padding: 20px;
-    font-size: 40px;
-}
 
 .navbar-inverse {
     background-color: #f3f1ed !important;
-    border: 0; 
+    border: 0;
     border-radius: 0;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .navbar-inverse .navbar-toggle {
     border-color: #f3f1ed;
+
 }
 
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #000000;
-     background-color: #f3f1ed;
-}
-
-
-.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
-    color: #fff;
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:focus,.navbar-inverse .navbar-nav>.active>a:hover {
+    color: #4d4d4d;
     background-color: #f3f1ed;
 }
 
 
+
 .navbar-inverse .navbar-nav>li>a {
-    color: #000000;
+    color: #000;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #4d4d4d;
+}
+
+
+.navbar-inverse .navbar-nav>li>a:active {
+    color: #4d4d4d;
+}
+
+.navbar-inverse .navbar-nav>li>a:visited {
+    color: #000;
 }
 
 .navbar-nav {
     display: inline-block;
     list-style-type: none;
-        float: inherit;
-    color: black;
+    float: inherit;
+    color: #000;
 }
 
 .navbar-nav li {
-    color: black;
+    color: #000;
 }
 
 .navbar-nav li:hover.mybutton {
-    color: black;
+    color: #000;
 }
 
-footer {
-    background-color: #f3f1ed;
-    color: black;
-    padding: 20px;
-    text-align: center;
-}
-
-footer ul li a {
-  font-size: 12px;
-}
-
+/* end navbar style */
 
 .kassa-img {
-          width: 26px;
+    width: 26px;
     margin: auto;
     float: right;
     margin-top: 18px;
@@ -111,7 +124,7 @@ footer ul li a {
 
 ul.kontakt-info {
     list-style-type: none;
-        padding: 0;
+    padding: 0;
 }
 
 ul.social-list {
@@ -119,95 +132,115 @@ ul.social-list {
     padding: 0;
 }
 
-ul.social-list li{
-	display: inline-block;
+ul.social-list li {
+    display: inline-block;
 }
 
 ul.social-list li a {
-      display: block;
-    color: white;
+    display: block;
+    color: #fff;
     text-align: center;
-    padding: 4px 4px;
+    padding: 4px;
     text-decoration: none;
 }
 
 ul.kontakt-info li a {
-      display: block;
-    color: #000000;
-   
+    display: block;
+    color: #000;
 }
 
 .socialmedielogo {
-    width:20px;
+    width: 20px;
     height: 20px;
-        
+}
+
+.hero-unit {
+    display: flex;
+    height: 300px;
+    background-image: url(cover1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero-unit-omoss {
+    display: flex;
+    height: 300px;
+    background-image: url(cover2.jpg);
+    background-size: cover;
+    background-position: center center;
 }
 
 
-.hero-unit {
-	display: flex;
-	height: 450px;
-	background-image: url(cover1.jpg);
-	background-size: cover;
-	background-position: center center;
-	}
-	
-	
-	.hero-unit__content {
-	margin: auto;
-	text-align:center;
-	background-color: #fff;
-	color: #000;
-	padding: 40px;
-	}
-	
-	
-	.hero-unit__content h2,p {
-	margin: 0;
-	padding: 0;
-	}
-	
-	.hero-unit__content p {
-	margin: auto;
-    max-width: 430px;
-	}
+/*Using The Block, Element, Modifier methodology BEM */
+.hero-unit__content {
+    margin: auto;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+}
+
+
+
+.hero-unit__content h2,p {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-unit__content h2 {
+    padding: 5px;
+}
+
+.hero-unit__content p {
+    margin: auto;
+    max-width: 300px;
+}
 
 main {
     margin-top: 0;
     margin-bottom: 10px;
 }
-.introduction {
-	text-align:center;
-	 }
-
 
 .introduction {
-	text-align:center;
-	 }
+    text-align: center;
+}
 
+.introduction {
+    text-align: center;
+}
 
 .introduction__content {
-	    margin: auto;
-    max-width: 450px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-	 }
+    margin: auto;
+    max-width: 300px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 7px;
+}
 
-
+/* artiklar */
 .articles {
-	margin-top: 10px;
+    margin-top: 10px;
     margin-bottom: 30px;
-	}
+}
 
 .articles ul {
-	list-style-type: none;
-	padding: 0;
-	margin:0;
-	}
-	
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.articles-img {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+}
+
 
 .articles li {
- position: relative;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .articles a {
@@ -221,12 +254,89 @@ main {
     text-decoration: none;
 }
 
+
 .articles .theme {
-   margin: auto;
-	text-align:center;
-	background-color: #fff;
-	color: #000;
-	padding: 15px;
+    margin: auto;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+}
+
+.articles h2 {
+    text-align: center;
+}
+
+.articles p {
+    text-align: center;
+}
+
+/* slut artiklar */
+
+/* footer style */
+footer {
+    background-color: #f3f1ed;
+    color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul li a {
+    font-size: 10px;
+}
+
+
+/* ändra nedan för större devices än 768px */
+@media (min-width: 768px) {
+
+
+    .hero-unit {
+        height: 450px;
+    }
+
+    .hero-unit__content {
+        padding: 40px;
+    }
+
+
+    .hero-unit__content p {
+        max-width: 430px;
+    }
+
+    .introduction__content {
+        margin: auto;
+        max-width: 450px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .articles li {
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .articles .theme {
+        padding: 15px;
+    }
+
+    h3 {
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+    footer ul li a {
+        font-size: 12px;
+    }
+
 }
 
 
@@ -235,37 +345,60 @@ main {
     font-family: Railway;
     src: url('resources/Railway.otf');
 }
-h2{
-    font-family:Railway;
-}
-#products{
+@media (max-width:250px) {
+  body{
+      margin-left: 25%;
+  }
 
+}
+.flexdiv{
+ margin-left: 13%;
+ margin-right: 13%;
 
 }
-.product{
+.flextable{
+    width: 355px;
+    height: 355px;
     display: inline-flex;
-    flex-direction: row;
-    flex: 1 1 auto;
-    margin: 5px;
-    font-family:Railway;
+    flex-direction: column;
+    flex: 1 1;
+    margin-left: 5%;
+
 
 }
+.fleximg{
+
+}
+
+
 .productinfo {
     text-align: center;
+
+
 
 }
 .productinfo p{
     font-size: 1.5em;
 
 }
+.productinfo image{
+
+}
+
 /*checkout*/
-.flextable{
-    margin-left: 15%;
+.fleximg{
+    width: 100%;
+    height: auto;
+
+}
+.flexcheck{
     text-align: left;
     display: inline-flex;
     flex-direction: column;
     flex: 1 1 auto;
     font-size: 1em;
+    margin-left: 15%;
+
 
 }
 
@@ -295,12 +428,12 @@ h2{
     padding: 2px;
 }
 .flexpay{
-    margin-left: 15%;
     text-align: left;
     display: inline-flex;
     flex-direction: column;
     flex: 1 1 auto;
     font-size: 1em;
+    margin-left: 15%;
 
 
 }
