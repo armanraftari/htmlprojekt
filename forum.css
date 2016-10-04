@@ -156,10 +156,11 @@ ul.kontakt-info li a {
 }
 
 @media (min-width: 768px) {
-    
+
     .kassa-img {
         height: 15px;
-    margin: auto;
-    float: right;
-    margin-top: 20px;
+        margin: auto;
+        float: right;
+        margin-top: 20px;
+    }
 }
